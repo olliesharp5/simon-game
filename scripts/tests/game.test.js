@@ -12,6 +12,7 @@ beforeAll(() => {
     document.close();
 });
 
+//Tests for the existance of these game keys, add tests to fail and then test again after the are added to the game.js file to pass test
 describe("game object contains correct keys", () => {
     test("score key exists", () => {
         expect("score" in game).toBe(true);
